@@ -2,6 +2,7 @@
 Extract city statistics via web APIs
 
 We have following data sources:
+
 1. OpenStreeMap city data from [metro extracts](https://mapzen.com/data/metro-extracts/).
 2. Factual API: http://developer.factual.com/
 3. AngelList API: https://angel.co/api
