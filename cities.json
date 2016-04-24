@@ -1,0 +1,261 @@
+{
+  "cities": [
+    {
+      "name": "Dar es Salaam",
+      "osm": {
+        "db": "dar",
+        "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/dar-es-salaam_tanzania.osm.pbf"
+      },
+      "factual": null,
+      "angelco": {
+        "tag_id": 8832
+      }
+    },
+    {
+      "name": "Singapore",
+      "osm": {
+        "db": "sin",
+        "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/singapore.osm.pbf"
+      },
+      "factual": {
+        "country": "SG"
+      },
+      "angelco": {
+        "tag_id": 1682
+      }
+    },
+    {
+      "name": "New York",
+      "osm": {
+        "db": "nyc",
+        "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/new-york_new-york.osm.pbf"
+      },
+      "factual": {
+        "country": "US",
+        "locality": "NEW YORK"
+      },
+      "angelco": {
+        "tag_id": 1664
+      }
+    },
+    {
+      "name": "San Francisco",
+      "osm": {
+        "db": "sfo",
+        "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/san-francisco_california.osm.pbf"
+      },
+      "factual": {
+        "country": "US",
+        "locality": "SAN FRANCISCO"
+      },
+      "angelco": {
+        "tag_id": 1692
+      }
+    },
+    {
+      "name": "London",
+      "osm": {
+        "db": "lon",
+        "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/london_england.osm.pbf"
+      },
+      "factual": {
+        "country": "GB",
+        "locality": "LONDON"
+      },
+      "angelco": {
+        "tag_id": 1695
+      }
+    },
+    {
+      "name": "Seoul",
+      "osm": {
+        "db": "sel",
+        "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/seoul_south-korea.osm.pbf"
+      },
+      "factual": {
+        "country": "KR",
+        "locality": "시흥시"
+      },
+      "angelco": {
+        "tag_id": 2441
+      }
+    },
+    {
+      "name": "Manila",
+      "osm": {
+        "db": "man",
+        "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/manila_philippines.osm.pbf"
+      },
+      "factual": {
+        "country": "PH",
+        "locality": "MANILA"
+      },
+      "angelco": {
+        "tag_id": 2225
+      }
+    },
+    {
+      "name": "Shanghai",
+      "osm": {
+        "db": "sha",
+        "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/shanghai_china.osm.pbf"
+      },
+      "factual": {
+        "country": "CN",
+        "locality": "上海市"
+      },
+      "angelco": {
+        "tag_id": 2029
+      }
+    },
+    {
+      "name": "Kampala",
+      "osm": {
+        "db": "kam",
+        "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/kampala_uganda.osm.pbf"
+      },
+      "factual": null,
+      "angelco": {
+        "tag_id": 2186
+      }
+    },
+    {
+      "name": "Doha",
+      "osm": {
+        "db": "doh",
+        "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/doha_qatar.osm.pbf"
+      },
+      "factual": null,
+      "angelco": {
+        "tag_id": 8789
+      }
+    },
+    {
+      "name": "Medellin",
+      "osm": {
+        "db": "med",
+        "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/medellin_colombia.osm.pbf"
+      },
+      "factual": {
+        "country": "CO",
+        "locality": "Medellín"
+      },
+      "angelco": {
+        "tag_id": 13532
+      }
+    },
+    {
+      "name": "Sao Paulo",
+      "osm": {
+        "db": "san",
+        "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/sao-paulo_brazil.osm.pbf"
+      },
+      "factual": {
+        "country": "BR",
+        "locality": "São Paulo"
+      },
+      "angelco": {
+        "tag_id": 8732
+      }
+    },
+    {
+      "name": "Casablanca",
+      "osm": {
+        "db": "cas",
+        "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/casablanca_morocco.osm.pbf"
+      },
+      "factual": null,
+      "angelco": {
+        "tag_id": 35718
+      }
+    },
+    {
+      "name": "Hanoi",
+      "osm": {
+        "db": "han",
+        "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/hanoi_vietnam.osm.pbf"
+      },
+      "factual": {
+        "country": "VN",
+        "region": "Hà Nội"
+      },
+      "angelco": {
+        "tag_id": 32389
+      }
+    },
+    {
+      "name": "Mumbai",
+      "osm": {
+        "db": "mum",
+        "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/mumbai_india.osm.pbf"
+      },
+      "factual": {
+        "country": "IN",
+        "locality": "Mumbai"
+      },
+      "angelco": {
+        "tag_id": 22939
+      }
+    },
+    {
+      "name": "Colombo",
+      "osm": {
+        "db": "col",
+        "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/colombo_sri-lanka.osm.pbf"
+      },
+      "factual": null,
+      "angelco": {
+        "tag_id": 104168
+      }
+    },
+    {
+      "name": "Karachi",
+      "osm": {
+        "db": "kar",
+        "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/karachi_pakistan.osm.pbf"
+      },
+      "factual": null,
+      "angelco": {
+        "tag_id": 3144
+      }
+    },
+    {
+      "name": "Cebu",
+      "osm": {
+        "db": "ceb",
+        "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/cebu_philippines.osm.pbf"
+      },
+      "factual": {
+        "country": "PH",
+        "region": "Cebu"
+      },
+      "angelco": {
+        "tag_id": 52088
+      }
+    },
+    {
+      "name": "Hong Kong",
+      "osm": {
+        "db": "hkg",
+        "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/hong-kong_china.osm.pbf"
+      },
+      "factual": {
+        "country": "HK"
+      },
+      "angelco": {
+        "tag_id": 1644
+      }
+    },
+    {
+      "name": "Beirut",
+      "osm": {
+        "db": "brt",
+        "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/beirut_lebanon.osm.pbf"
+      },
+      "factual": null,
+      "angelco": {
+        "tag_id": 18356
+      }
+    }
+  ]
+}

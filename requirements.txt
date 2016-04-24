@@ -1,0 +1,4 @@
+requests
+googlemaps
+factual-api
+psycopg2
