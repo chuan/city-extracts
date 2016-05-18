@@ -79,6 +79,7 @@ def main():
                   end='', file=out)
             if (config['angel.co'].getboolean('DumpData')):
                 angel.dump_all_startups(city_tag)
+                angel.dump_all_investors(city_tag)
 
             # Print factual count
             if (city['factual']):

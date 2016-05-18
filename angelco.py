@@ -76,6 +76,35 @@ class AngelcoClient():
         with open(filename, 'w') as outfile:
             json.dump(data, outfile)
 
+    def dump_all_investors(self, tag_id):
+        path = 'tags/{0:d}/users'.format(tag_id)
+        params = {'investors': 'by_residence'}
+        total = -1
+        p = 1
+        while (True):
+            data = self.get(path, params)
+            if (total < 0):
+                total = self.get(path)['total']
+            filename = os.path.join(
+                self.dataDir,
+                'investors/{0:d}/{1:d}.json'.format(tag_id, p))
+            if not os.path.exists(os.path.dirname(filename)):
+                os.makedirs(os.path.dirname(filename))
+
+            with open(filename, 'w') as outfile:
+                json.dump(data, outfile)
+
+            lp = data['last_page']
+
+            print('Dumping {0:d} of a total {1:d} pages to {2}.'.format(
+                p,
+                lp,
+                filename))
+            if (lp <= p):
+                break
+            p += 1
+        return total
+
     def get_investor_count(self, tag_id):
         # API doc: https://angel.co/api/spec/users
         path = 'tags/{0:d}/users'.format(tag_id)
