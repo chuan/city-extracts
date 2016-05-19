@@ -60,7 +60,6 @@ def main():
         for city in cities:
             db = city['osm']['db']
             osm = OsmClient(db, getpass.getuser())
-            city_tag = city['angelco']['tag_id']
             # Print city name
             print(city['name'], end='', file=out)
 
@@ -73,13 +72,17 @@ def main():
                       end='', file=out)
 
             # Print angelco count
-            print(', {:d}'.format(angel.get_startup_count(city_tag)),
-                  end='', file=out)
-            print(', {:d}'.format(angel.get_investor_count(city_tag)),
-                  end='', file=out)
-            if (config['angel.co'].getboolean('DumpData')):
-                angel.dump_all_startups(city_tag)
-                angel.dump_all_investors(city_tag)
+            if (city['angelco']):
+                city_tag = city['angelco']['tag_id']
+                print(', {:d}'.format(angel.get_startup_count(city_tag)),
+                      end='', file=out)
+                print(', {:d}'.format(angel.get_investor_count(city_tag)),
+                      end='', file=out)
+                if (config['angel.co'].getboolean('DumpData')):
+                    angel.dump_all_startups(city_tag)
+                    angel.dump_all_investors(city_tag)
+            else:
+                print(', NA, NA', end='', file=out)
 
             # Print factual count
             if (city['factual']):

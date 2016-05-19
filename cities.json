@@ -963,7 +963,7 @@
       "factual": null,
       "angelco": null,
       "osm": {
-        "db": "man",
+        "db": "mns",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/manaus_brazil.osm.pbf"
       },
       "name": "Manaus, Brazil"
@@ -1233,7 +1233,7 @@
       "factual": null,
       "angelco": null,
       "osm": {
-        "db": "san",
+        "db": "saa",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/sanaa_yemen.osm.pbf"
       },
       "name": "Sanaa, Yemen"
@@ -1251,7 +1251,7 @@
       "factual": null,
       "angelco": null,
       "osm": {
-        "db": "saa",
+        "db": "sac",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/santa-cruz_california.osm.pbf"
       },
       "name": "Santa Cruz, California"
