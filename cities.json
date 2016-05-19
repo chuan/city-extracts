@@ -1,1413 +1,1755 @@
 {
   "cities": [
     {
-      "name": "Dar es Salaam",
       "osm": {
         "db": "dar",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/dar-es-salaam_tanzania.osm.pbf"
       },
-      "factual": null,
+      "name": "Dar es Salaam",
       "angelco": {
         "tag_id": 8832
-      }
+      },
+      "factual": null
     },
     {
-      "name": "Singapore",
       "osm": {
         "db": "sin",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/singapore.osm.pbf"
       },
-      "factual": {
-        "country": "SG"
-      },
+      "name": "Singapore",
       "angelco": {
         "tag_id": 1682
+      },
+      "factual": {
+        "country": "SG"
       }
     },
     {
-      "name": "New York",
       "osm": {
         "db": "nyc",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/new-york_new-york.osm.pbf"
       },
+      "name": "New York",
+      "angelco": {
+        "tag_id": 1664
+      },
       "factual": {
         "country": "US",
         "locality": "NEW YORK"
-      },
-      "angelco": {
-        "tag_id": 1664
       }
     },
     {
-      "name": "San Francisco",
       "osm": {
         "db": "sfo",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/san-francisco_california.osm.pbf"
       },
+      "name": "San Francisco",
+      "angelco": {
+        "tag_id": 1692
+      },
       "factual": {
         "country": "US",
         "locality": "SAN FRANCISCO"
-      },
-      "angelco": {
-        "tag_id": 1692
       }
     },
     {
-      "name": "London",
       "osm": {
         "db": "lon",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/london_england.osm.pbf"
       },
+      "name": "London",
+      "angelco": {
+        "tag_id": 1695
+      },
       "factual": {
         "country": "GB",
         "locality": "LONDON"
-      },
-      "angelco": {
-        "tag_id": 1695
       }
     },
     {
-      "name": "Seoul",
       "osm": {
         "db": "sel",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/seoul_south-korea.osm.pbf"
       },
-      "factual": {
-        "country": "KR",
-        "locality": "시흥시"
-      },
+      "name": "Seoul",
       "angelco": {
         "tag_id": 2441
+      },
+      "factual": {
+        "country": "KR",
+        "locality": "\uc2dc\ud765\uc2dc"
       }
     },
     {
-      "name": "Manila",
       "osm": {
         "db": "man",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/manila_philippines.osm.pbf"
       },
+      "name": "Manila",
+      "angelco": {
+        "tag_id": 2225
+      },
       "factual": {
         "country": "PH",
         "locality": "MANILA"
-      },
-      "angelco": {
-        "tag_id": 2225
       }
     },
     {
-      "name": "Shanghai",
       "osm": {
         "db": "sha",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/shanghai_china.osm.pbf"
       },
-      "factual": {
-        "country": "CN",
-        "locality": "上海市"
-      },
+      "name": "Shanghai",
       "angelco": {
         "tag_id": 2029
+      },
+      "factual": {
+        "country": "CN",
+        "locality": "\u4e0a\u6d77\u5e02"
       }
     },
     {
-      "name": "Kampala",
       "osm": {
         "db": "kam",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/kampala_uganda.osm.pbf"
       },
-      "factual": null,
+      "name": "Kampala",
       "angelco": {
         "tag_id": 2186
-      }
+      },
+      "factual": null
     },
     {
-      "name": "Doha",
       "osm": {
         "db": "doh",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/doha_qatar.osm.pbf"
       },
-      "factual": null,
+      "name": "Doha",
       "angelco": {
         "tag_id": 8789
-      }
+      },
+      "factual": null
     },
     {
-      "name": "Medellin",
       "osm": {
         "db": "med",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/medellin_colombia.osm.pbf"
       },
-      "factual": {
-        "country": "CO",
-        "locality": "Medellín"
-      },
+      "name": "Medellin",
       "angelco": {
         "tag_id": 13532
+      },
+      "factual": {
+        "country": "CO",
+        "locality": "Medell\u00edn"
       }
     },
     {
-      "name": "Sao Paulo",
       "osm": {
         "db": "san",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/sao-paulo_brazil.osm.pbf"
       },
-      "factual": {
-        "country": "BR",
-        "locality": "São Paulo"
-      },
+      "name": "Sao Paulo",
       "angelco": {
         "tag_id": 8732
+      },
+      "factual": {
+        "country": "BR",
+        "locality": "S\u00e3o Paulo"
       }
     },
     {
-      "name": "Casablanca",
       "osm": {
         "db": "cas",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/casablanca_morocco.osm.pbf"
       },
-      "factual": null,
+      "name": "Casablanca",
       "angelco": {
         "tag_id": 35718
-      }
+      },
+      "factual": null
     },
     {
-      "name": "Hanoi",
       "osm": {
         "db": "han",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/hanoi_vietnam.osm.pbf"
       },
-      "factual": {
-        "country": "VN",
-        "region": "Hà Nội"
-      },
+      "name": "Hanoi",
       "angelco": {
         "tag_id": 32389
+      },
+      "factual": {
+        "region": "H\u00e0 N\u1ed9i",
+        "country": "VN"
       }
     },
     {
-      "name": "Mumbai",
       "osm": {
         "db": "mum",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/mumbai_india.osm.pbf"
       },
+      "name": "Mumbai",
+      "angelco": {
+        "tag_id": 22939
+      },
       "factual": {
         "country": "IN",
         "locality": "Mumbai"
-      },
-      "angelco": {
-        "tag_id": 22939
       }
     },
     {
-      "name": "Colombo",
       "osm": {
         "db": "col",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/colombo_sri-lanka.osm.pbf"
       },
-      "factual": null,
+      "name": "Colombo",
       "angelco": {
         "tag_id": 104168
-      }
+      },
+      "factual": null
     },
     {
-      "name": "Karachi",
       "osm": {
         "db": "kar",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/karachi_pakistan.osm.pbf"
       },
-      "factual": null,
+      "name": "Karachi",
       "angelco": {
         "tag_id": 3144
-      }
+      },
+      "factual": null
     },
     {
-      "name": "Cebu",
       "osm": {
         "db": "ceb",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/cebu_philippines.osm.pbf"
       },
-      "factual": {
-        "country": "PH",
-        "region": "Cebu"
-      },
+      "name": "Cebu",
       "angelco": {
         "tag_id": 52088
+      },
+      "factual": {
+        "region": "Cebu",
+        "country": "PH"
       }
     },
     {
-      "name": "Hong Kong",
       "osm": {
         "db": "hkg",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/hong-kong_china.osm.pbf"
       },
-      "factual": {
-        "country": "HK"
-      },
+      "name": "Hong Kong",
       "angelco": {
         "tag_id": 1644
+      },
+      "factual": {
+        "country": "HK"
       }
     },
     {
-      "name": "Beirut",
       "osm": {
         "db": "brt",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/beirut_lebanon.osm.pbf"
       },
-      "factual": null,
+      "name": "Beirut",
       "angelco": {
         "tag_id": 18356
-      }
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "abi",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/abidjan_ivory-coast.osm.pbf"
       },
-      "name": "Abidjan, Ivory Coast"
+      "name": "Abidjan, Ivory Coast",
+      "angelco": {
+        "url": "https://angel.co/abidjan",
+        "tag_id": 153887
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "abu",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/abuja_nigeria.osm.pbf"
       },
-      "name": "Abuja, Nigeria"
+      "name": "Abuja, Nigeria",
+      "angelco": {
+        "url": "https://angel.co/abuja",
+        "tag_id": 36824
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "acc",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/accra_ghana.osm.pbf"
       },
-      "name": "Accra, Ghana"
+      "name": "Accra, Ghana",
+      "angelco": {
+        "url": "https://angel.co/accra",
+        "tag_id": 25054
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "ada",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/adana_turkey.osm.pbf"
       },
-      "name": "Adana, Turkey"
+      "name": "Adana, Turkey",
+      "angelco": {
+        "url": "https://angel.co/adana",
+        "tag_id": 80335
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "ale",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/alexandria_egypt.osm.pbf"
       },
-      "name": "Alexandria, Egypt"
+      "name": "Alexandria, Egypt",
+      "angelco": {
+        "url": "https://angel.co/alexandria-va",
+        "tag_id": 2716
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "alg",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/algiers_algeria.osm.pbf"
       },
-      "name": "Algiers, Algeria"
+      "name": "Algiers, Algeria",
+      "angelco": {
+        "url": "https://angel.co/algiers",
+        "tag_id": 58774
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "alm",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/almaty_kazakhstan.osm.pbf"
       },
-      "name": "Almaty, Kazakhstan"
+      "name": "Almaty, Kazakhstan",
+      "angelco": {
+        "url": "https://angel.co/almaty",
+        "tag_id": 48221
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "amm",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/amman_jordan.osm.pbf"
       },
-      "name": "Amman, Jordan"
+      "name": "Amman, Jordan",
+      "angelco": {
+        "url": "https://angel.co/amman",
+        "tag_id": 83403
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "ank",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/ankara_turkey.osm.pbf"
       },
-      "name": "Ankara, Turkey"
+      "name": "Ankara, Turkey",
+      "angelco": {
+        "url": "https://angel.co/ankara",
+        "tag_id": 70703
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "ant",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/antananarivo_madagascar.osm.pbf"
       },
-      "name": "Antananarivo, Madagascar"
+      "name": "Antananarivo, Madagascar",
+      "angelco": {
+        "url": "https://angel.co/antananarivo",
+        "tag_id": 81910
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "ath",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/athens_georgia.osm.pbf"
       },
-      "name": "Athens, Georgia"
+      "name": "Athens, Georgia",
+      "angelco": {
+        "url": "https://angel.co/athens",
+        "tag_id": 2332
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "ate",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/athens_greece.osm.pbf"
       },
-      "name": "Athens, Greece"
+      "name": "Athens, Greece",
+      "angelco": {
+        "url": "https://angel.co/athens",
+        "tag_id": 2332
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "atl",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/atlanta_georgia.osm.pbf"
       },
-      "name": "Atlanta, Georgia"
+      "name": "Atlanta, Georgia",
+      "angelco": {
+        "url": "https://angel.co/atlanta",
+        "tag_id": 1616
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "bag",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/baghdad_iraq.osm.pbf"
       },
-      "name": "Baghdad, Iraq"
+      "name": "Baghdad, Iraq",
+      "angelco": {
+        "url": "https://angel.co/baghdad",
+        "tag_id": 104146
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "bak",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/baku_azerbaijan.osm.pbf"
       },
-      "name": "Baku, Azerbaijan"
+      "name": "Baku, Azerbaijan",
+      "angelco": {
+        "url": "https://angel.co/baku",
+        "tag_id": 71645
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "bam",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/bamako_mali.osm.pbf"
       },
-      "name": "Bamako, Mali"
+      "name": "Bamako, Mali",
+      "angelco": {
+        "url": "https://angel.co/bamako",
+        "tag_id": 90900
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "ban",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/bandung_indonesia.osm.pbf"
       },
-      "name": "Bandung, Indonesia"
+      "name": "Bandung, Indonesia",
+      "angelco": {
+        "url": "https://angel.co/bandung",
+        "tag_id": 11419
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "bao",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/bangkok_thailand.osm.pbf"
       },
-      "name": "Bangkok, Thailand"
+      "name": "Bangkok, Thailand",
+      "angelco": {
+        "url": "https://angel.co/bangkok",
+        "tag_id": 8853
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "bar",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/barcelona_spain.osm.pbf"
       },
-      "name": "Barcelona, Spain"
+      "name": "Barcelona, Spain",
+      "angelco": {
+        "url": "https://angel.co/barcelona",
+        "tag_id": 1853
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "bei",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/beijing_china.osm.pbf"
       },
-      "name": "Beijing, China"
+      "name": "Beijing, China",
+      "angelco": {
+        "url": "https://angel.co/beijing",
+        "tag_id": 24471
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "bel",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/belgrade_serbia.osm.pbf"
       },
-      "name": "Belgrade, Serbia"
+      "name": "Belgrade, Serbia",
+      "angelco": {
+        "url": "https://angel.co/belgrade",
+        "tag_id": 2206
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "beo",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/belo-horizonte_brazil.osm.pbf"
       },
-      "name": "Belo Horizonte, Brazil"
+      "name": "Belo Horizonte, Brazil",
+      "angelco": {
+        "url": "https://angel.co/belo-horizonte",
+        "tag_id": 8761
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "ber",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/berlin_germany.osm.pbf"
       },
-      "name": "Berlin, Germany"
+      "name": "Berlin, Germany",
+      "angelco": {
+        "url": "https://angel.co/berlin",
+        "tag_id": 1914
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "bog",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/bogota_colombia.osm.pbf"
       },
-      "name": "Bogota, Colombia"
+      "name": "Bogota, Colombia",
+      "angelco": {
+        "url": "https://angel.co/bogota",
+        "tag_id": 8836
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "bos",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/boston_massachusetts.osm.pbf"
       },
-      "name": "Boston, Massachusetts"
+      "name": "Boston, Massachusetts",
+      "angelco": {
+        "url": "https://angel.co/boston",
+        "tag_id": 1620
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "bra",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/brasilia_brazil.osm.pbf"
       },
-      "name": "Brasilia, Brazil"
+      "name": "Brasilia, Brazil",
+      "angelco": {
+        "url": "https://angel.co/brasilia",
+        "tag_id": 42101
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "buc",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/bucharest_romania.osm.pbf"
       },
-      "name": "Bucharest, Romania"
+      "name": "Bucharest, Romania",
+      "angelco": {
+        "url": "https://angel.co/bucharest",
+        "tag_id": 1779
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "bue",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/buenos-aires_argentina.osm.pbf"
       },
-      "name": "Buenos Aires, Argentina"
+      "name": "Buenos Aires, Argentina",
+      "angelco": {
+        "url": "https://angel.co/buenos-aires",
+        "tag_id": 1963
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "bur",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/bursa_turkey.osm.pbf"
       },
-      "name": "Bursa, Turkey"
+      "name": "Bursa, Turkey",
+      "angelco": {
+        "url": "https://angel.co/bursa",
+        "tag_id": 79298
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "cai",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/cairo_egypt.osm.pbf"
       },
-      "name": "Cairo, Egypt"
+      "name": "Cairo, Egypt",
+      "angelco": {
+        "url": "https://angel.co/cairo",
+        "tag_id": 2964
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "cal",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/cali_colombia.osm.pbf"
       },
-      "name": "Cali, Colombia"
+      "name": "Cali, Colombia",
+      "angelco": {
+        "url": "https://angel.co/california",
+        "tag_id": 1624
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "cap",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/cape-town_south-africa.osm.pbf"
       },
-      "name": "Cape Town, South Africa"
+      "name": "Cape Town, South Africa",
+      "angelco": {
+        "url": "https://angel.co/cape-town",
+        "tag_id": 1873
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "car",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/caracas_venezuela.osm.pbf"
       },
-      "name": "Caracas, Venezuela"
+      "name": "Caracas, Venezuela",
+      "angelco": {
+        "url": "https://angel.co/caracas",
+        "tag_id": 8877
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "che",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/chelyabinsk_russia.osm.pbf"
       },
-      "name": "Chelyabinsk, Russia"
+      "name": "Chelyabinsk, Russia",
+      "angelco": {
+        "url": "https://angel.co/chelyabinsk",
+        "tag_id": 10301
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "chn",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/chengdu_china.osm.pbf"
       },
-      "name": "Chengdu, China"
+      "name": "Chengdu, China",
+      "angelco": {
+        "url": "https://angel.co/chengdu",
+        "tag_id": 21518
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "cha",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/chennai_india.osm.pbf"
       },
-      "name": "Chennai, India"
+      "name": "Chennai, India",
+      "angelco": {
+        "url": "https://angel.co/madras-2",
+        "tag_id": 8581
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "chi",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/chicago_illinois.osm.pbf"
       },
-      "name": "Chicago, Illinois"
+      "name": "Chicago, Illinois",
+      "angelco": {
+        "url": "https://angel.co/chicago",
+        "tag_id": 1626
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "cho",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/chongqing_china.osm.pbf"
       },
-      "name": "Chongqing, China"
+      "name": "Chongqing, China",
+      "angelco": {
+        "url": "https://angel.co/chongqing",
+        "tag_id": 11072
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "con",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/conakry_guinea.osm.pbf"
       },
-      "name": "Conakry, Guinea"
+      "name": "Conakry, Guinea",
+      "angelco": {
+        "url": "https://angel.co/conakry",
+        "tag_id": 11116
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "cur",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/curitiba_brazil.osm.pbf"
       },
-      "name": "Curitiba, Brazil"
+      "name": "Curitiba, Brazil",
+      "angelco": {
+        "url": "https://angel.co/curitiba",
+        "tag_id": 8904
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "dak",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/dakar_senegal.osm.pbf"
       },
-      "name": "Dakar, Senegal"
+      "name": "Dakar, Senegal",
+      "angelco": {
+        "url": "https://angel.co/dakar",
+        "tag_id": 71681
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "dal",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/dallas_texas.osm.pbf"
       },
-      "name": "Dallas, Texas"
+      "name": "Dallas, Texas",
+      "angelco": {
+        "url": "https://angel.co/dallas",
+        "tag_id": 1633
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "det",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/detroit_michigan.osm.pbf"
       },
-      "name": "Detroit, Michigan"
+      "name": "Detroit, Michigan",
+      "angelco": {
+        "url": "https://angel.co/detroit",
+        "tag_id": 1636
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "dha",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/dhaka_bangladesh.osm.pbf"
       },
-      "name": "Dhaka, Bangladesh"
+      "name": "Dhaka, Bangladesh",
+      "angelco": {
+        "url": "https://angel.co/dhaka-bangladesh",
+        "tag_id": 113888
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "dub",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/dubai_abu-dhabi.osm.pbf"
       },
-      "name": "Dubai, Abu Dhabi"
+      "name": "Dubai, Abu Dhabi",
+      "angelco": {
+        "url": "https://angel.co/dubai",
+        "tag_id": 1637
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "dur",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/durban_south-africa.osm.pbf"
       },
-      "name": "Durban, South Africa"
+      "name": "Durban, South Africa",
+      "angelco": {
+        "url": "https://angel.co/durban",
+        "tag_id": 2887
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "for",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/fortaleza_brazil.osm.pbf"
       },
-      "name": "Fortaleza, Brazil"
+      "name": "Fortaleza, Brazil",
+      "angelco": null,
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "gua",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/guadalajara_jalisco_mexico.osm.pbf"
       },
-      "name": "Guadalajara, Jalisco, Mexico"
+      "name": "Guadalajara, Jalisco, Mexico",
+      "angelco": {
+        "url": "https://angel.co/guadalajara",
+        "tag_id": 2584
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "gun",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/guangzhou_china.osm.pbf"
       },
-      "name": "Guangzhou, China"
+      "name": "Guangzhou, China",
+      "angelco": {
+        "url": "https://angel.co/guangzhou",
+        "tag_id": 13429
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "guy",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/guayaquil_ecuador.osm.pbf"
       },
-      "name": "Guayaquil, Ecuador"
+      "name": "Guayaquil, Ecuador",
+      "angelco": {
+        "url": "https://angel.co/guayaquil",
+        "tag_id": 42660
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "har",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/harare_zimbabwe.osm.pbf"
       },
-      "name": "Harare, Zimbabwe"
+      "name": "Harare, Zimbabwe",
+      "angelco": {
+        "url": "https://angel.co/harare",
+        "tag_id": 31167
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "hoc",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/ho-chi-minh-city_vietnam.osm.pbf"
       },
-      "name": "Ho Chi Minh City, Vietnam"
+      "name": "Ho Chi Minh City, Vietnam",
+      "angelco": {
+        "url": "https://angel.co/ho-chi-minh-city",
+        "tag_id": 154808
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "hou",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/houston_texas.osm.pbf"
       },
-      "name": "Houston, Texas"
+      "name": "Houston, Texas",
+      "angelco": {
+        "url": "https://angel.co/houston",
+        "tag_id": 1645
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "hyd",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/hyderabad_india.osm.pbf"
       },
-      "name": "Hyderabad, India"
+      "name": "Hyderabad, India",
+      "angelco": {
+        "url": "https://angel.co/hyderabad",
+        "tag_id": 3003
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "iba",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/ibadan_nigeria.osm.pbf"
       },
-      "name": "Ibadan, Nigeria"
+      "name": "Ibadan, Nigeria",
+      "angelco": {
+        "url": "https://angel.co/ibadan",
+        "tag_id": 88188
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "isl",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/islamabad_pakistan.osm.pbf"
       },
-      "name": "Islamabad, Pakistan"
+      "name": "Islamabad, Pakistan",
+      "angelco": null,
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "ist",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/istanbul_turkey.osm.pbf"
       },
-      "name": "Istanbul, Turkey"
+      "name": "Istanbul, Turkey",
+      "angelco": {
+        "url": "https://angel.co/istanbul-1",
+        "tag_id": 2122
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "izm",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/izmir_turkey.osm.pbf"
       },
-      "name": "Izmir, Turkey"
+      "name": "Izmir, Turkey",
+      "angelco": {
+        "url": "https://angel.co/izmir",
+        "tag_id": 8803
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "jai",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/jaipur_india.osm.pbf"
       },
-      "name": "Jaipur, India"
+      "name": "Jaipur, India",
+      "angelco": {
+        "url": "https://angel.co/jaipur",
+        "tag_id": 8582
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "jak",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/jakarta_indonesia.osm.pbf"
       },
-      "name": "Jakarta, Indonesia"
+      "name": "Jakarta, Indonesia",
+      "angelco": {
+        "url": "https://angel.co/jakarta-1",
+        "tag_id": 89092
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "jed",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/jeddah_saudi-arabia.osm.pbf"
       },
-      "name": "Jeddah, Saudi Arabia"
+      "name": "Jeddah, Saudi Arabia",
+      "angelco": null,
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "joh",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/johannesburg_south-africa.osm.pbf"
       },
-      "name": "Johannesburg, South Africa"
+      "name": "Johannesburg, South Africa",
+      "angelco": {
+        "url": "https://angel.co/johannesburg",
+        "tag_id": 2156
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "kan",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/kano_nigeria.osm.pbf"
       },
-      "name": "Kano, Nigeria"
+      "name": "Kano, Nigeria",
+      "angelco": null,
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "kao",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/kaohsiung_taiwan.osm.pbf"
       },
-      "name": "Kaohsiung, Taiwan"
+      "name": "Kaohsiung, Taiwan",
+      "angelco": {
+        "url": "https://angel.co/kaohsiung",
+        "tag_id": 49152
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "kat",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/kathmandu_nepal.osm.pbf"
       },
-      "name": "Kathmandu, Nepal"
+      "name": "Kathmandu, Nepal",
+      "angelco": null,
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "kha",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/kharkiv_ukraine.osm.pbf"
       },
-      "name": "Kharkiv, Ukraine"
+      "name": "Kharkiv, Ukraine",
+      "angelco": null,
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "khr",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/khartoum_republic-of-sudan.osm.pbf"
       },
-      "name": "Khartoum, Republic Of Sudan"
+      "name": "Khartoum, Republic Of Sudan",
+      "angelco": {
+        "url": "https://angel.co/khartoum",
+        "tag_id": 98448
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "kin",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/kinshasa_congo.osm.pbf"
       },
-      "name": "Kinshasa, Congo"
+      "name": "Kinshasa, Congo",
+      "angelco": {
+        "url": "https://angel.co/kinshasa",
+        "tag_id": 133477
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "kol",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/kolkata_india.osm.pbf"
       },
-      "name": "Kolkata, India"
+      "name": "Kolkata, India",
+      "angelco": null,
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "kua",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/kuala-lumpur_malaysia.osm.pbf"
       },
-      "name": "Kuala Lumpur, Malaysia"
+      "name": "Kuala Lumpur, Malaysia",
+      "angelco": {
+        "url": "https://angel.co/kuala-lumpur",
+        "tag_id": 2114
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "lap",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/la-paz_bolivia.osm.pbf"
       },
-      "name": "La Paz, Bolivia"
+      "name": "La Paz, Bolivia",
+      "angelco": {
+        "url": "https://angel.co/la-paz",
+        "tag_id": 98061
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "lag",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/lagos_nigeria.osm.pbf"
       },
-      "name": "Lagos, Nigeria"
+      "name": "Lagos, Nigeria",
+      "angelco": {
+        "url": "https://angel.co/lagos",
+        "tag_id": 2303
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "lah",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/lahore_pakistan.osm.pbf"
       },
-      "name": "Lahore, Pakistan"
+      "name": "Lahore, Pakistan",
+      "angelco": {
+        "url": "https://angel.co/lahore",
+        "tag_id": 14607
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "lim",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/lima_peru.osm.pbf"
       },
-      "name": "Lima, Peru"
+      "name": "Lima, Peru",
+      "angelco": {
+        "url": "https://angel.co/lima",
+        "tag_id": 8615
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "los",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/los-angeles_california.osm.pbf"
       },
-      "name": "Los Angeles, California"
+      "name": "Los Angeles, California",
+      "angelco": {
+        "url": "https://angel.co/los-angeles",
+        "tag_id": 1653
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "lua",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/luanda_angola.osm.pbf"
       },
-      "name": "Luanda, Angola"
+      "name": "Luanda, Angola",
+      "angelco": {
+        "url": "https://angel.co/luanda",
+        "tag_id": 175712
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "lus",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/lusaka_zambia.osm.pbf"
       },
-      "name": "Lusaka, Zambia"
+      "name": "Lusaka, Zambia",
+      "angelco": {
+        "url": "https://angel.co/lusaka",
+        "tag_id": 83396
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "mad",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/madrid_spain.osm.pbf"
       },
-      "name": "Madrid, Spain"
+      "name": "Madrid, Spain",
+      "angelco": {
+        "url": "https://angel.co/madrid",
+        "tag_id": 2192
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "mns",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/manaus_brazil.osm.pbf"
       },
-      "name": "Manaus, Brazil"
+      "name": "Manaus, Brazil",
+      "angelco": {
+        "url": "https://angel.co/manaus",
+        "tag_id": 83696
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "map",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/maputo_mozambique.osm.pbf"
       },
-      "name": "Maputo, Mozambique"
+      "name": "Maputo, Mozambique",
+      "angelco": {
+        "url": "https://angel.co/maputo",
+        "tag_id": 60702
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "mas",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/mashhad_iran.osm.pbf"
       },
-      "name": "Mashhad, Iran"
+      "name": "Mashhad, Iran",
+      "angelco": {
+        "url": "https://angel.co/mashhad",
+        "tag_id": 132692
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "mec",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/mecca_saudi-arabia.osm.pbf"
       },
-      "name": "Mecca, Saudi Arabia"
+      "name": "Mecca, Saudi Arabia",
+      "angelco": {
+        "url": "https://angel.co/mecca",
+        "tag_id": 14148
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "mex",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/mexico-city_mexico.osm.pbf"
       },
-      "name": "Mexico City, Mexico"
+      "name": "Mexico City, Mexico",
+      "angelco": {
+        "url": "https://angel.co/mexico-city",
+        "tag_id": 157047
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "mia",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/miami_florida.osm.pbf"
       },
-      "name": "Miami, Florida"
+      "name": "Miami, Florida",
+      "angelco": {
+        "url": "https://angel.co/miami",
+        "tag_id": 1657
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "mil",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/milan_italy.osm.pbf"
       },
-      "name": "Milan, Italy"
+      "name": "Milan, Italy",
+      "angelco": null,
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "min",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/minsk_belarus.osm.pbf"
       },
-      "name": "Minsk, Belarus"
+      "name": "Minsk, Belarus",
+      "angelco": {
+        "url": "https://angel.co/minsk",
+        "tag_id": 2338
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "mon",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/monterrey_mexico.osm.pbf"
       },
-      "name": "Monterrey, Mexico"
+      "name": "Monterrey, Mexico",
+      "angelco": {
+        "url": "https://angel.co/monterrey",
+        "tag_id": 8501
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "mos",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/moscow_russia.osm.pbf"
       },
-      "name": "Moscow, Russia"
+      "name": "Moscow, Russia",
+      "angelco": {
+        "url": "https://angel.co/moscow",
+        "tag_id": 2013
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "mou",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/mosul_iraq.osm.pbf"
       },
-      "name": "Mosul, Iraq"
+      "name": "Mosul, Iraq",
+      "angelco": null,
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "nag",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/nagoya_japan.osm.pbf"
       },
-      "name": "Nagoya, Japan"
+      "name": "Nagoya, Japan",
+      "angelco": {
+        "url": "https://angel.co/nagoya",
+        "tag_id": 53516
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "nai",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/nairobi_kenya.osm.pbf"
       },
-      "name": "Nairobi, Kenya"
+      "name": "Nairobi, Kenya",
+      "angelco": {
+        "url": "https://angel.co/nairobi",
+        "tag_id": 2242
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "nap",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/naples_italy.osm.pbf"
       },
-      "name": "Naples, Italy"
+      "name": "Naples, Italy",
+      "angelco": {
+        "url": "https://angel.co/naples-fl",
+        "tag_id": 2155
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "ode",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/odessa_ukraine.osm.pbf"
       },
-      "name": "Odessa, Ukraine"
+      "name": "Odessa, Ukraine",
+      "angelco": {
+        "url": "https://angel.co/odessa",
+        "tag_id": 2104
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "ora",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/oran_algeria.osm.pbf"
       },
-      "name": "Oran, Algeria"
+      "name": "Oran, Algeria",
+      "angelco": {
+        "url": "https://angel.co/orange-county",
+        "tag_id": 1800
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "osa",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/osaka_japan.osm.pbf"
       },
-      "name": "Osaka, Japan"
+      "name": "Osaka, Japan",
+      "angelco": {
+        "url": "https://angel.co/osaka",
+        "tag_id": 2520
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "oua",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/ouagadougou_burkina-faso.osm.pbf"
       },
-      "name": "Ouagadougou, Burkina Faso"
+      "name": "Ouagadougou, Burkina Faso",
+      "angelco": {
+        "url": "https://angel.co/ouagadougou",
+        "tag_id": 99673
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "par",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/paris_france.osm.pbf"
       },
-      "name": "Paris, France"
+      "name": "Paris, France",
+      "angelco": null,
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "phi",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/philadelphia_pennsylvania.osm.pbf"
       },
-      "name": "Philadelphia, Pennsylvania"
+      "name": "Philadelphia, Pennsylvania",
+      "angelco": {
+        "url": "https://angel.co/philadelphia",
+        "tag_id": 1671
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "pho",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/phoenix_arizona.osm.pbf"
       },
-      "name": "Phoenix, Arizona"
+      "name": "Phoenix, Arizona",
+      "angelco": {
+        "url": "https://angel.co/phoenix",
+        "tag_id": 1672
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "por",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/porto-alegre_brazil.osm.pbf"
       },
-      "name": "Porto Alegre, Brazil"
+      "name": "Porto Alegre, Brazil",
+      "angelco": {
+        "url": "https://angel.co/porto-alegre",
+        "tag_id": 31455
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "pue",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/puebla_mexico.osm.pbf"
       },
-      "name": "Puebla, Mexico"
+      "name": "Puebla, Mexico",
+      "angelco": {
+        "url": "https://angel.co/puebla",
+        "tag_id": 49760
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "pun",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/pune_india.osm.pbf"
       },
-      "name": "Pune, India"
+      "name": "Pune, India",
+      "angelco": {
+        "url": "https://angel.co/pune",
+        "tag_id": 2597
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "rec",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/recife_brazil.osm.pbf"
       },
-      "name": "Recife, Brazil"
+      "name": "Recife, Brazil",
+      "angelco": {
+        "url": "https://angel.co/recife",
+        "tag_id": 19831
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "rio",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/rio-de-janeiro_brazil.osm.pbf"
       },
-      "name": "Rio De Janeiro, Brazil"
+      "name": "Rio De Janeiro, Brazil",
+      "angelco": {
+        "url": "https://angel.co/rio-de-janeiro",
+        "tag_id": 2021
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "riy",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/riyadh_saudi-arabia.osm.pbf"
       },
-      "name": "Riyadh, Saudi Arabia"
+      "name": "Riyadh, Saudi Arabia",
+      "angelco": {
+        "url": "https://angel.co/riyadh",
+        "tag_id": 18101
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "rom",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/rome_italy.osm.pbf"
       },
-      "name": "Rome, Italy"
+      "name": "Rome, Italy",
+      "angelco": null,
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "sai",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/saint-petersburg_russia.osm.pbf"
       },
-      "name": "Saint Petersburg, Russia"
+      "name": "Saint Petersburg, Russia",
+      "angelco": {
+        "url": "https://angel.co/saint-petersburg",
+        "tag_id": 11678
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "sal",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/salvador_brazil.osm.pbf"
       },
-      "name": "Salvador, Brazil"
+      "name": "Salvador, Brazil",
+      "angelco": {
+        "url": "https://angel.co/salvador",
+        "tag_id": 14360
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "saa",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/sanaa_yemen.osm.pbf"
       },
-      "name": "Sanaa, Yemen"
+      "name": "Sanaa, Yemen",
+      "angelco": null,
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "sat",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/santa-cruz_bolivia.osm.pbf"
       },
-      "name": "Santa Cruz, Bolivia"
+      "name": "Santa Cruz, Bolivia",
+      "angelco": {
+        "url": "https://angel.co/santa-cruz",
+        "tag_id": 2689
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "sac",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/santa-cruz_california.osm.pbf"
       },
-      "name": "Santa Cruz, California"
+      "name": "Santa Cruz, California",
+      "angelco": {
+        "url": "https://angel.co/santa-cruz",
+        "tag_id": 2689
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "sag",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/santiago_chile.osm.pbf"
       },
-      "name": "Santiago, Chile"
+      "name": "Santiago, Chile",
+      "angelco": null,
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "sao",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/santo-domingo_dominican-republic.osm.pbf"
       },
-      "name": "Santo Domingo, Dominican Republic"
+      "name": "Santo Domingo, Dominican Republic",
+      "angelco": {
+        "url": "https://angel.co/santo-domingo",
+        "tag_id": 30152
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "sof",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/sofia_bulgaria.osm.pbf"
       },
-      "name": "Sofia, Bulgaria"
+      "name": "Sofia, Bulgaria",
+      "angelco": null,
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "sur",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/surat_india.osm.pbf"
       },
-      "name": "Surat, India"
+      "name": "Surat, India",
+      "angelco": {
+        "url": "https://angel.co/surat-1",
+        "tag_id": 15393
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "syd",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/sydney_australia.osm.pbf"
       },
-      "name": "Sydney, Australia"
+      "name": "Sydney, Australia",
+      "angelco": {
+        "url": "https://angel.co/sydney",
+        "tag_id": 2125
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "tai",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/taichung_taiwan.osm.pbf"
       },
-      "name": "Taichung, Taiwan"
+      "name": "Taichung, Taiwan",
+      "angelco": {
+        "url": "https://angel.co/taichung",
+        "tag_id": 16252
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "tan",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/tainan_taiwan.osm.pbf"
       },
-      "name": "Tainan, Taiwan"
+      "name": "Tainan, Taiwan",
+      "angelco": {
+        "url": "https://angel.co/tainan",
+        "tag_id": 71496
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "tap",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/taipei_city_taiwan.osm.pbf"
       },
-      "name": "Taipei, City, Taiwan"
+      "name": "Taipei, City, Taiwan",
+      "angelco": {
+        "url": "https://angel.co/taipei",
+        "tag_id": 2521
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "tae",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/taipei_taiwan.osm.pbf"
       },
-      "name": "Taipei, Taiwan"
+      "name": "Taipei, Taiwan",
+      "angelco": {
+        "url": "https://angel.co/taipei",
+        "tag_id": 2521
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "tao",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/taoyuan_taiwan.osm.pbf"
       },
-      "name": "Taoyuan, Taiwan"
+      "name": "Taoyuan, Taiwan",
+      "angelco": {
+        "url": "https://angel.co/taoyuan",
+        "tag_id": 210268
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "tas",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/tashkent_uzbekistan.osm.pbf"
       },
-      "name": "Tashkent, Uzbekistan"
+      "name": "Tashkent, Uzbekistan",
+      "angelco": {
+        "url": "https://angel.co/tashkent",
+        "tag_id": 53761
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "teh",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/tehran_iran.osm.pbf"
       },
-      "name": "Tehran, Iran"
+      "name": "Tehran, Iran",
+      "angelco": {
+        "url": "https://angel.co/tehran",
+        "tag_id": 8741
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "tia",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/tianjin_china.osm.pbf"
       },
-      "name": "Tianjin, China"
+      "name": "Tianjin, China",
+      "angelco": {
+        "url": "https://angel.co/tianjin",
+        "tag_id": 2517
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "tok",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/tokyo_japan.osm.pbf"
       },
-      "name": "Tokyo, Japan"
+      "name": "Tokyo, Japan",
+      "angelco": {
+        "url": "https://angel.co/tokyo",
+        "tag_id": 2278
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "tor",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/toronto_canada.osm.pbf"
       },
-      "name": "Toronto, Canada"
+      "name": "Toronto, Canada",
+      "angelco": {
+        "url": "https://angel.co/toronto",
+        "tag_id": 1702
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "tun",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/tunis_tunisia.osm.pbf"
       },
-      "name": "Tunis, Tunisia"
+      "name": "Tunis, Tunisia",
+      "angelco": {
+        "url": "https://angel.co/tunisia",
+        "tag_id": 2293
+      },
+      "factual": null
     },
     {
-      "factual": null,
-      "angelco": null,
       "osm": {
         "db": "yer",
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/yerevan_armenia.osm.pbf"
       },
-      "name": "Yerevan, Armenia"
+      "name": "Yerevan, Armenia",
+      "angelco": {
+        "url": "https://angel.co/yerevan",
+        "tag_id": 22926
+      },
+      "factual": null
     }
   ]
 }
