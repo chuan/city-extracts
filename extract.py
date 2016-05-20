@@ -61,7 +61,7 @@ def main():
             db = city['osm']['db']
             osm = OsmClient(db, getpass.getuser())
             # Print city name
-            print(city['name'], end='', file=out)
+            print(city['name'].replace(',', ''), end='', file=out)
 
             # Print OSM count
             for amenity in osm_amenity:

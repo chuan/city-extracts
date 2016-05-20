@@ -995,7 +995,9 @@
     {
       "name": "Kano, Nigeria",
       "factual": null,
-      "angelco": null,
+      "angelco": {
+        "tag_id": 320917
+      },
       "osm": {
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/kano_nigeria.osm.pbf",
         "db": "kan"
@@ -1247,7 +1249,9 @@
     {
       "name": "Milan, Italy",
       "factual": null,
-      "angelco": null,
+      "angelco": {
+        "tag_id": 2187
+      },
       "osm": {
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/milan_italy.osm.pbf",
         "db": "mil"
@@ -1493,7 +1497,9 @@
     {
       "name": "Rome, Italy",
       "factual": null,
-      "angelco": null,
+      "angelco": {
+        "tag_id": 2137
+      },
       "osm": {
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/rome_italy.osm.pbf",
         "db": "rom"
@@ -1583,7 +1589,9 @@
     {
       "name": "Sofia, Bulgaria",
       "factual": null,
-      "angelco": null,
+      "angelco": {
+        "tag_id": 2195
+      },
       "osm": {
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/sofia_bulgaria.osm.pbf",
         "db": "sof"
