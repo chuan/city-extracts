@@ -295,7 +295,10 @@
     },
     {
       "name": "Adana, Turkey",
-      "factual": null,
+      "factual": {
+        "locality": "ADANA",
+        "country": "TR"
+      },
       "angelco": {
         "url": "https://angel.co/adana",
         "tag_id": 80335
@@ -355,7 +358,10 @@
     },
     {
       "name": "Ankara, Turkey",
-      "factual": null,
+      "factual": {
+        "locality": "ANKARA",
+        "country": "US"
+      },
       "angelco": {
         "url": "https://angel.co/ankara",
         "tag_id": 70703
@@ -451,7 +457,10 @@
     },
     {
       "name": "Bandung, Indonesia",
-      "factual": null,
+      "factual": {
+        "locality": "BANDUNG",
+        "country": "ID"
+      },
       "angelco": {
         "url": "https://angel.co/bandung",
         "tag_id": 11419
@@ -475,7 +484,10 @@
     },
     {
       "name": "Barcelona, Spain",
-      "factual": null,
+      "factual": {
+        "locality": "BARCELONA",
+        "country": "ES"
+      },
       "angelco": {
         "url": "https://angel.co/barcelona",
         "tag_id": 1853
@@ -523,7 +535,10 @@
     },
     {
       "name": "Berlin, Germany",
-      "factual": null,
+      "factual": {
+        "locality": "BERLIN",
+        "country": "DE"
+      },
       "angelco": {
         "url": "https://angel.co/berlin",
         "tag_id": 1914
@@ -535,7 +550,10 @@
     },
     {
       "name": "Bogota, Colombia",
-      "factual": null,
+      "factual": {
+        "locality": "BOGOTÁ",
+        "country": "CO"
+      },
       "angelco": {
         "url": "https://angel.co/bogota",
         "tag_id": 8836
@@ -559,7 +577,10 @@
     },
     {
       "name": "Brasilia, Brazil",
-      "factual": null,
+      "factual": {
+        "locality": "BRASÍLIA",
+        "country": "BR"
+      },
       "angelco": {
         "url": "https://angel.co/brasilia",
         "tag_id": 42101
@@ -583,7 +604,10 @@
     },
     {
       "name": "Buenos Aires, Argentina",
-      "factual": null,
+      "factual": {
+        "locality": "BUENOS AIRES",
+        "country": "AR"
+      },
       "angelco": {
         "url": "https://angel.co/buenos-aires",
         "tag_id": 1963
@@ -619,7 +643,10 @@
     },
     {
       "name": "Cali, Colombia",
-      "factual": null,
+      "factual": {
+        "locality": "CALI",
+        "country": "CO"
+      },
       "angelco": {
         "url": "https://angel.co/california",
         "tag_id": 1624
@@ -631,7 +658,10 @@
     },
     {
       "name": "Cape Town, South Africa",
-      "factual": null,
+      "factual": {
+        "locality": "cAPE TOWN",
+        "country": "ZE"
+      },
       "angelco": {
         "url": "https://angel.co/cape-town",
         "tag_id": 1873
@@ -643,7 +673,10 @@
     },
     {
       "name": "Caracas, Venezuela",
-      "factual": null,
+      "factual": {
+        "locality": "CARACAS",
+        "country": "VE"
+      },
       "angelco": {
         "url": "https://angel.co/caracas",
         "tag_id": 8877
@@ -679,7 +712,10 @@
     },
     {
       "name": "Chennai, India",
-      "factual": null,
+      "factual": {
+        "locality": "CHENNAI",
+        "country": "IN"
+      },
       "angelco": {
         "url": "https://angel.co/madras-2",
         "tag_id": 8581
@@ -691,7 +727,10 @@
     },
     {
       "name": "Chicago, Illinois",
-      "factual": null,
+      "factual": {
+        "locality": "CHICAGO",
+        "country": "US"
+      },
       "angelco": {
         "url": "https://angel.co/chicago",
         "tag_id": 1626
@@ -727,7 +766,10 @@
     },
     {
       "name": "Curitiba, Brazil",
-      "factual": null,
+      "factual": {
+        "locality": "CURITIBA",
+        "country": "BR"
+      },
       "angelco": {
         "url": "https://angel.co/curitiba",
         "tag_id": 8904
@@ -751,7 +793,10 @@
     },
     {
       "name": "Dallas, Texas",
-      "factual": null,
+      "factual": {
+        "locality": "DALLAS",
+        "country": "US"
+      },
       "angelco": {
         "url": "https://angel.co/dallas",
         "tag_id": 1633
@@ -763,7 +808,10 @@
     },
     {
       "name": "Detroit, Michigan",
-      "factual": null,
+      "factual": {
+        "locality": "DETROIT",
+        "country": "US"
+      },
       "angelco": {
         "url": "https://angel.co/detroit",
         "tag_id": 1636
@@ -799,7 +847,10 @@
     },
     {
       "name": "Durban, South Africa",
-      "factual": null,
+      "factual": {
+        "locality": "DURBAN",
+        "country": "ZE"
+      },
       "angelco": {
         "url": "https://angel.co/durban",
         "tag_id": 2887
@@ -811,7 +862,10 @@
     },
     {
       "name": "Fortaleza, Brazil",
-      "factual": null,
+      "factual": {
+        "locality": "FORTALEZA",
+        "country": "BR"
+      },
       "angelco": null,
       "osm": {
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/fortaleza_brazil.osm.pbf",
@@ -820,7 +874,10 @@
     },
     {
       "name": "Guadalajara, Jalisco, Mexico",
-      "factual": null,
+      "factual": {
+        "locality": "GUADALAJARA",
+        "country": "MX"
+      },
       "angelco": {
         "url": "https://angel.co/guadalajara",
         "tag_id": 2584
@@ -868,7 +925,10 @@
     },
     {
       "name": "Ho Chi Minh City, Vietnam",
-      "factual": null,
+      "factual": {
+        "region": "Hồ Chí Minh",
+        "country": "VN"
+      },
       "angelco": {
         "url": "https://angel.co/ho-chi-minh-city",
         "tag_id": 154808
@@ -880,7 +940,10 @@
     },
     {
       "name": "Houston, Texas",
-      "factual": null,
+      "factual": {
+        "locality": "HOUSTON",
+        "country": "US"
+      },
       "angelco": {
         "url": "https://angel.co/houston",
         "tag_id": 1645
@@ -892,7 +955,10 @@
     },
     {
       "name": "Hyderabad, India",
-      "factual": null,
+      "factual": {
+        "locality": "HYDERABAD",
+        "country": "IN"
+      },
       "angelco": {
         "url": "https://angel.co/hyderabad",
         "tag_id": 3003
@@ -925,7 +991,10 @@
     },
     {
       "name": "Istanbul, Turkey",
-      "factual": null,
+      "factual": {
+        "region": "ISTANBUL",
+        "country": "TR"
+      },
       "angelco": {
         "url": "https://angel.co/istanbul-1",
         "tag_id": 2122
@@ -949,7 +1018,10 @@
     },
     {
       "name": "Jaipur, India",
-      "factual": null,
+      "factual": {
+        "locality": "JAIPUR",
+        "country": "IN"
+      },
       "angelco": {
         "url": "https://angel.co/jaipur",
         "tag_id": 8582
@@ -982,7 +1054,10 @@
     },
     {
       "name": "Johannesburg, South Africa",
-      "factual": null,
+      "factual": {
+        "locality": "JOHANNESBURG",
+        "country": "ZE"
+      },
       "angelco": {
         "url": "https://angel.co/johannesburg",
         "tag_id": 2156
@@ -1059,7 +1134,10 @@
     },
     {
       "name": "Kolkata, India",
-      "factual": null,
+      "factual": {
+        "locality": "KOLKATA",
+        "country": "IN"
+      },
       "angelco": null,
       "osm": {
         "link": "https://s3.amazonaws.com/metro-extracts.mapzen.com/kolkata_india.osm.pbf",
@@ -1068,7 +1146,10 @@
     },
     {
       "name": "Kuala Lumpur, Malaysia",
-      "factual": null,
+      "factual": {
+        "locality": "KUALA LUMPUR",
+        "country": "MY"
+      },
       "angelco": {
         "url": "https://angel.co/kuala-lumpur",
         "tag_id": 2114
@@ -1116,7 +1197,10 @@
     },
     {
       "name": "Lima, Peru",
-      "factual": null,
+      "factual": {
+        "locality": "LIMA",
+        "country": "PE"
+      },
       "angelco": {
         "url": "https://angel.co/lima",
         "tag_id": 8615
@@ -1164,7 +1248,10 @@
     },
     {
       "name": "Madrid, Spain",
-      "factual": null,
+      "factual": {
+        "locality": "MADRID",
+        "country": "ES"
+      },
       "angelco": {
         "url": "https://angel.co/madrid",
         "tag_id": 2192
@@ -1224,7 +1311,10 @@
     },
     {
       "name": "Mexico City, Mexico",
-      "factual": null,
+      "factual": {
+        "locality": "CIUDAD DE MÉxico",
+        "country": "DE"
+      },
       "angelco": {
         "url": "https://angel.co/mexico-city",
         "tag_id": 157047
@@ -1236,7 +1326,10 @@
     },
     {
       "name": "Miami, Florida",
-      "factual": null,
+      "factual": {
+        "locality": "MIAMI",
+        "country": "US"
+      },
       "angelco": {
         "url": "https://angel.co/miami",
         "tag_id": 1657
@@ -1248,7 +1341,10 @@
     },
     {
       "name": "Milan, Italy",
-      "factual": null,
+      "factual": {
+        "locality": "MILAN",
+        "country": "IT"
+      },
       "angelco": {
         "tag_id": 2187
       },
@@ -1271,7 +1367,10 @@
     },
     {
       "name": "Monterrey, Mexico",
-      "factual": null,
+      "factual": {
+        "locality": "MONTERREY",
+        "country": "MX"
+      },
       "angelco": {
         "url": "https://angel.co/monterrey",
         "tag_id": 8501
@@ -1328,7 +1427,10 @@
     },
     {
       "name": "Naples, Italy",
-      "factual": null,
+      "factual": {
+        "locality": "NAPOLI",
+        "country": "IT"
+      },
       "angelco": {
         "url": "https://angel.co/naples-fl",
         "tag_id": 2155
@@ -1388,7 +1490,10 @@
     },
     {
       "name": "Paris, France",
-      "factual": null,
+      "factual": {
+        "locality": "PARIS",
+        "country": "FR"
+      },
       "angelco": {
         "url": "https://angel.co/paris-france",
         "tag_id": 152777
@@ -1400,7 +1505,10 @@
     },
     {
       "name": "Philadelphia, Pennsylvania",
-      "factual": null,
+      "factual": {
+        "locality": "PHILADELPHIA",
+        "country": "US"
+      },
       "angelco": {
         "url": "https://angel.co/philadelphia",
         "tag_id": 1671
@@ -1412,7 +1520,10 @@
     },
     {
       "name": "Phoenix, Arizona",
-      "factual": null,
+      "factual": {
+        "locality": "PHOENIX",
+        "country": "US"
+      },
       "angelco": {
         "url": "https://angel.co/phoenix",
         "tag_id": 1672
@@ -1424,7 +1535,10 @@
     },
     {
       "name": "Porto Alegre, Brazil",
-      "factual": null,
+      "factual": {
+        "locality": "PORTO ALEGRE",
+        "country": "BR"
+      },
       "angelco": {
         "url": "https://angel.co/porto-alegre",
         "tag_id": 31455
@@ -1436,7 +1550,10 @@
     },
     {
       "name": "Puebla, Mexico",
-      "factual": null,
+      "factual": {
+        "locality": "PUEBLA",
+        "country": "MX"
+      },
       "angelco": {
         "url": "https://angel.co/puebla",
         "tag_id": 49760
@@ -1448,7 +1565,10 @@
     },
     {
       "name": "Pune, India",
-      "factual": null,
+      "factual": {
+        "locality": "PUNE",
+        "country": "IN"
+      },
       "angelco": {
         "url": "https://angel.co/pune",
         "tag_id": 2597
@@ -1460,7 +1580,10 @@
     },
     {
       "name": "Recife, Brazil",
-      "factual": null,
+      "factual": {
+        "locality": "RECIFE",
+        "country": "BR"
+      },
       "angelco": {
         "url": "https://angel.co/recife",
         "tag_id": 19831
@@ -1472,7 +1595,10 @@
     },
     {
       "name": "Rio De Janeiro, Brazil",
-      "factual": null,
+      "factual": {
+        "locality": "RIO DE JANEIRO",
+        "country": "BR"
+      },
       "angelco": {
         "url": "https://angel.co/rio-de-janeiro",
         "tag_id": 2021
@@ -1496,7 +1622,10 @@
     },
     {
       "name": "Rome, Italy",
-      "factual": null,
+      "factual": {
+        "locality": "ROME",
+        "country": "IT"
+      },
       "angelco": {
         "tag_id": 2137
       },
@@ -1519,7 +1648,10 @@
     },
     {
       "name": "Salvador, Brazil",
-      "factual": null,
+      "factual": {
+        "locality": "SALVADOR",
+        "country": "BR"
+      },
       "angelco": {
         "url": "https://angel.co/salvador",
         "tag_id": 14360
@@ -1552,7 +1684,10 @@
     },
     {
       "name": "Santa Cruz, California",
-      "factual": null,
+      "factual": {
+        "locality": "SANTA CRUZ",
+        "country": "US"
+      },
       "angelco": {
         "url": "https://angel.co/santa-cruz",
         "tag_id": 2689
@@ -1564,7 +1699,10 @@
     },
     {
       "name": "Santiago, Chile",
-      "factual": null,
+      "factual": {
+        "locality": "SANTIAGO",
+        "country": "CL"
+      },
       "angelco": {
         "url": "https://angel.co/santiago-chile",
         "tag_id": 153223
@@ -1599,7 +1737,10 @@
     },
     {
       "name": "Surat, India",
-      "factual": null,
+      "factual": {
+        "locality": "SURAT",
+        "country": "IN"
+      },
       "angelco": {
         "url": "https://angel.co/surat-1",
         "tag_id": 15393
@@ -1611,7 +1752,10 @@
     },
     {
       "name": "Sydney, Australia",
-      "factual": null,
+      "factual": {
+        "locality": "SYDNEY",
+        "country": "AU"
+      },
       "angelco": {
         "url": "https://angel.co/sydney",
         "tag_id": 2125
@@ -1731,7 +1875,10 @@
     },
     {
       "name": "Toronto, Canada",
-      "factual": null,
+      "factual": {
+        "locality": "TORONTO",
+        "country": "CA"
+      },
       "angelco": {
         "url": "https://angel.co/toronto",
         "tag_id": 1702
